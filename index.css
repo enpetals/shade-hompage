@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.menu{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.menu-items{
+    padding: 2rem 1.5rem;
+}
+
+li > a {
+    text-decoration: none;
+    color: rgb(54, 54, 70) ;
+    /* font-size: 14px; */
+    font-weight: 400px;
+}
+
+.logo {
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+}
+
+.gt-button{
+    padding: .8rem 1.7rem;
+    background-color: orangered;
+    border-radius: 15px;
+    color: white;
+}
+
+.section-container {
+    display: flex;
+    margin-top: 7rem;
+    margin-left: 6.5rem;
+
+}
+
+.text-container {
+    margin-right: 10rem;
+    margin-top: 4rem;
+}
+
+.hero-image{
+    position: relative;
+    margin-right: 4rem;
+}
+
+.Title1 {
+    display: inline-block;
+    font-size: 80px;
+    padding-bottom: 3rem;
+    max-width: 100%;
+    width: 560px;
+    color: rgb(54, 54, 70);
+  
+}
+
+.hero-paragraph {
+    margin-bottom: 4rem;
+    width: 550px;
+}
+
+
+.chart {
+    /* margin-top: 22rem;
+    margin-right: 14rem;
+    padding-left: 0.4rem; */
+    position: absolute;
+    bottom: 100px;
+    right: -32px;
+    animation-duration: 8s;
+    animation-name: chart;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes chart {
+    100% { transform :rotate(360deg);}
+}
+
+
+.heart {
+    position: absolute;
+    top: 50px;
+    right: -22px;
+    animation-name: heart;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes heart {
+    from {
+        top: 0;
+
+
+    }
+
+    to {
+        bottom: 5px;
+    }
+}
+
+.chat-icon {
+    position: absolute;
+    top: 170px;
+    left: -22px;
+    animation-name: chat;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation-fill-mode: forwards; */
+}
+
+@keyframes chat {
+    from {
+        /* right: 0px; */
+        top: 170px;
+        left: 4px;
+    }
+
+    to { 
+        top: 170px;
+        right: 50px;
+    }
+}
+
+.create-account {
+    padding: 1.5rem 2rem;
+    background-color: orangered;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.create-account1 {
+    margin-bottom: 4rem;
+
+}
+
+@media screen { 
+    
+}
